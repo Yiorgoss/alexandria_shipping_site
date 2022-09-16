@@ -1,0 +1,45 @@
+const serviceList = {
+    commercial: {
+        title: "Commercial",
+        text: "One of the most vital services that Medcare has to provide to the ship owning companies, whose vessels it manages, is the employment of those vessels in accordance with their Owners’ instructions and wishes.  The company’s commercial department which consists of experienced brokers is responsible to achieve this task by: <ul><li>Securing employment for the fleet in order to maximise the earnings from the freight market.</li><li>Following closely the freight market in terms of supply and demand for tonnage, both in short term and long term view.</li><li>Marketing and fixing the ships through a network of international ship brokers world wide and through direct contact with charterers / cargo owners on the spot or period charter basis.</li><li>Analysing / negotiating / reviewing all charter parties prior to fixing to ensure the company has received all possible benefits and protection, and to ensure compliance with P&I club rules and approved forms of contract.</li><li>Liaising with Marine & Operations departments for availability / suitability of vessels and for subsequent post-fixture activity.</li></ul> ",
+        banner: {
+            image: "company_mission",
+
+            style: {},
+        },
+    },
+    operation: {
+        title: "Operation",
+        text: "One of the most important services of the company lies on the Operation department.<br><br>The operations department is the main coordinator among the company’s departments, the charterers, and all third parties involved with the ships (i.e. ship agents, ship-chandlers, bunkering suppliers, etc.).<br><br>The Operation department is liable for the following tasks:<ul><li>Promote and establish an awareness of safety and the need to protect the environment, amongst all fleet operating staff.</li><li>Ensure that Safe Cargo Operations are established on board (by issuing necessary instructions and  procedures as necessary)</li><li>Ensure that the company’s Cargo related Procedures are effectively implemented on board.</li><li>Ensure that management objectives are met.</li><li>Dealing with Non-conformities covered ship and shore operations.</li><li>Investigate accidents reports regarding safety and insurance.</li><li>Appraise and appoint the local agents according the past performance or third party recommendations.</li><li>Monitor day to day operational aspects of each ship and issue instructions to the ships where necessary.</li><li>Monitor the vessel performance against charter party requirements in co-ordination with the Chartering Department and intervene where necessary.</li><li>To arrange for the bunkering of the vessels.</li><li>To monitor freight collection of the company.</li><li>To sent proper voyage instructions to the Master and ensure that the Master is aware and familiar with all C/P terms and important details.</li><li>To communicate with Charterers whenever it is considered necessary, to ensure that they are satisfied with vessel’s performance and promote Company’s relations with them.</li></ul>",
+        banner: {
+            image: "AFT",
+            style: {},
+        },
+    },
+    technical: {
+        title: "Technical",
+        text: "The heart of the company lies in the technical department.<br><br>Through the employment of experienced and highly qualified superintendent engineers the company establishes that each vessel’s hull, machinery and equipment is more than adequately monitored and maintained at highest market standards.<br><br>The technical department is responsible:<br><br><ul><li>To ensure that managed vessels are maintained & certificated in accordance with the respective Flag Administration & Classification Society requirements</li><li>To minimize any vessel delays due to any unscheduled machinery/ equipment break down</li><li>To maximize the vessel’s availability for trading</li><li>To monitor, evaluate & control vessel’s expenditures for maintenance & repair purposes</li><li>To monitor & evaluate vessel’s consumption performance.</li><ul>",
+        banner: {
+            image: "ship_8",
+            style: { backgroundPosition: "70% 78%" },
+        },
+    },
+    "marine-safety-quality": {
+        title: "Marine Safety Quality & Environment",
+        text: "The Safety, Quality & Environmental department, is the department responsible for the safety on board the vessels, pollution prevention, environmental management, and the provision of quality services in every respect.<br><br>The objectives of the Safety, Quality & Environmental department are described below:<ul><li>To ensure that the requirements of the company’s management system are effectively implemented throughout the fleet in accordance with the ISM Code, the ISO 9001 Standards, the ISO 14001 and Company Standards.</li><li>To follow up all developments related to International rules and regulations, and industry requirements on safety, quality, and the environment so as to continuously maintain and update the relevant company’s procedures.</li><li>To monitor Safety and Pollution Prevention aspects of the operation of each Ship and to ensure that adequate resources and shore based support are applied.</li><li>To minimise all accidents and hazardous occurrences that endanger the safety of personnel, property, assets under care (including the cargo) and the environment in general.</li><li>To visit the vessels regularly and continuously audit the onboard procedures so as to ensure that the vessels and the crews comply with all national and international rules and regulations, that the maintenance standards of the company are maintained and that they are approved by the vetting departments of all major oil companies.</li><li>To ensure that the Company’s Training Programme for Seafarer’s employed is effectively implemented and maintained.</li><li>To eliminate any (safety) hazards identified on board either by third party inspections or through routine operations and inspections from company employees and seafarers.</li><li>To ensure that no time delays occur to any of the vessels due to any failure of the Management System.</li><li>To Minimise the volume of garbage produced on board.</li><li>To Minimise the volume of Oil residues (sludges) produced on board.</li><li>To Minimise the volume of oily bilge water volumes produced on board.</li></ul>",
+        banner: {
+            image: "",
+            style: {},
+        },
+    },
+    crewing: {
+        title: "Crewing",
+        text: "The Crew Department is responsible for ensuring that all vessels are efficiently and effectively manned with fully qualified and experienced seafarers in accordance with the relevant STCW & Flag Administration requirements.<br><br>Medcare’s crewing management system is one of the company’s most thought out and broad procedures since the human element is certainly the most important of all factors.<br><br>The most important tasks of Medcare’s Crew department are:<ul><li>To employ seafarers whose performance meets the company standards.</li><li>To improve the retention of seafarers with acceptable performance.</li><li>To implement an effective appraisal and training system for seafarers employed.</li><li>To employ Manning Agents that continuously and effectively meet the company requirements and the industry certification standards as stipulated by the STCW and the respective Flag Administrations.</li><li>To implement an effective and efficient D & A Program and to eliminate any positive results of alcohol and narcotics testing.</li><li>To implement an active promotion scheme for seafarers whose performance is good.</li><ul>",
+        banner: {
+            image: "ship_2",
+            style: {},
+        },
+    },
+};
+
+export default serviceList;
