@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 import MenuIcon from "@material-ui/icons/Menu";
 
-import logoLarge from "../assets/images/logo-large.svg";
+//import logoLarge from "../assets/images/logo-large.jpg";
 //import medcareLogoLarge from "../assets/images/medcare_logo_large.jpg";
 
 const headerLinks = [
@@ -70,13 +70,7 @@ export default function Header(): JSX.Element {
                 }`}
             >
                 <div className="w-full h-full grid grid-cols-3 md:grid-cols-4">
-                    <div className="h-[100px] w-[300px] md:w-[330px] overflow-hidden place-start ">
-                        <img
-                            src={logoLarge}
-                            alt="medcare shipping logo"
-                            className=" mt-[-37px]"
-                        />
-                    </div>
+                    <div className="h-[100px] w-[300px] md:w-[330px] overflow-hidden place-start "></div>
                     <div className="my-auto col-span-2">
                         <ul className="flex flex-col justify-start justify-center my-auto text-xl text-center flex-start md:text-sm md:flex-row">
                             {headerLinks.map((link, index) => (

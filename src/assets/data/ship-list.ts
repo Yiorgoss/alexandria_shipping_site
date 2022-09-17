@@ -1,20 +1,34 @@
 const shipList = [
     {
-        name: "Libera",
-        type: "Oil/Chemical Carrier IMO III",
-        year: 2006,
-        flag: "Malta",
-        dwt: 40000,
+        name: "Aeolos",
+        type: "Handysize",
+        year: 2001,
+        flag: "Marshall Islands",
+        dwt: 32256,
         images: [
             {
-                name: "libera_1",
+                name: "aeolos_4",
                 //inline styles for selected image
                 style: {
                     backgroundPosition: "center 70%",
                 },
             },
             {
-                name: "libera_2",
+                name: "aeolos_5",
+                //inline styles for selected image
+                style: {
+                    backgroundPosition: "center 70%",
+                },
+            },
+            {
+                name: "aeolos_2",
+                //inline styles for selected image
+                style: {
+                    backgroundPosition: "center 90%",
+                },
+            },
+            {
+                name: "aeolos_3",
                 //inline styles for selected image
                 style: {
                     backgroundPosition: "center 90%",
@@ -23,94 +37,146 @@ const shipList = [
         ],
     },
     {
-        name: "Marvea",
-        type: "Oil/Chemical Carrier IMO III",
-        year: 2006,
-        flag: "Malta",
-        dwt: 40000,
+        name: "Anthea V",
+        type: "Ultramax",
+        year: 2016,
+        flag: "Panama",
+        dwt: 66609,
         images: [
             {
-                name: "marvea_1",
+                name: "anthea_1",
                 //inline styles for selected image
                 style: {
                     backgroundPosition: "center 100%",
                 },
             },
             {
-                name: "marvea_2",
+                name: "anthea_2",
+                //inline styles for selected image
+                style: {
+                    backgroundPosition: "center 40%",
+                },
+            },
+            {
+                name: "anthea_3",
+                //inline styles for selected image
+                style: {
+                    backgroundPosition: "center 40%",
+                },
+            },
+            {
+                name: "anthea_4",
+                //inline styles for selected image
+                style: {
+                    backgroundPosition: "center 40%",
+                },
+            },
+            {
+                name: "anthea_5",
                 //inline styles for selected image
                 style: {
                     backgroundPosition: "center 40%",
                 },
             },
         ],
-        iframe: {
-            title: "MARVEA",
-            yturl: "https://www.youtube-nocookie.com/embed/ZCotz4-M0NQ",
-        },
     },
     {
-        name: "Serena M",
-        type: "Oil/Chemical Carrier IMO III",
-        year: 2010,
-        flag: "Malta",
-        dwt: 40000,
+        name: "Christina V",
+        type: "Ultramax",
+        year: 2018,
+        flag: "Marshall Islands",
+        dwt: 66653,
         images: [
             {
-                name: "serena_m_1",
+                name: "christina_1",
+                //inline styles for selected image
+                style: {
+                    backgroundPosition: "center 100%",
+                },
+            },
+            {
+                name: "christina_2",
+                //inline styles for selected image
+                style: {
+                    backgroundPosition: "center 100%",
+                },
+            },
+            {
+                name: "christina_3",
                 //inline styles for selected image
                 style: {
                     backgroundPosition: "center 100%",
                 },
             },
         ],
-        iframe: {
-            title: "SERENA M",
-            yturl: "https://www.youtube-nocookie.com/embed/jFLU4kxDeYg",
-        },
     },
     {
-        name: "Ertea",
-        type: "Bulk Carrier",
-        year: 2009,
-        flag: "Liberia",
-        dwt: 55000,
+        name: "Marylisa V",
+        type: "Supramax",
+        year: 2003,
+        flag: "Marshall Islands",
+        dwt: 52428,
         images: [
             {
-                name: "ertea_1",
+                name: "marylisa_1",
                 //inline styles for selected image
                 style: {
                     backgroundPosition: "center 70%",
                 },
             },
             {
-                name: "ertea_2",
+                name: "marylisa_2",
                 //inline styles for selected image
                 style: {
                     backgroundPosition: "center 100%",
                 },
             },
             {
-                name: "ertea_3",
+                name: "marylisa_3",
                 //inline styles for selected image
                 style: {
                     backgroundPosition: "center 100%",
                 },
+            },
+            {
+                name: "marylisa_4",
+                //inline styles for selected image
+                style: {
+                    backgroundPosition: "center 100%",
+                },
+            },
+            {
+                name: "marylisa_5",
+                //inline styles for selected image
+                style: {
+                    backgroundPosition: "center 100%",
+                },
+            },
+            {
+                name: "marylisa_6",
+                //inline styles for selected image
+            },
+            {
+                name: "marylisa_7",
+                //inline styles for selected image
+            },
+            {
+                name: "marylisa_8",
+                //inline styles for selected image
             },
         ],
     },
     {
-        name: "Eraclea",
-        type: "Bulk Carrier",
-        year: 2010,
-        flag: "Liberia",
-        dwt: 55000,
+        name: "Thrasyvoulos V",
+        type: "Ultramax",
+        year: 2016,
+        flag: "Marshall Islands",
+        dwt: 61214,
         images: [
             {
-                name: "eraclea_5",
-                //inline styles for selected image
+                name: "deck",
                 style: {
-                    backgroundPosition: "center 80%",
+                    backgroundPosition: "center 100%",
                 },
             },
         ],

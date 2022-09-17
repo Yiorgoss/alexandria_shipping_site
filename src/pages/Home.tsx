@@ -6,24 +6,24 @@ import { sliderImageList } from "../assets/data";
 
 const shipBoxData = [
     {
-        name: "Libera",
-        image: "libera_1",
+        name: "Aeolos",
+        image: "aeolos_2",
     },
     {
-        name: "Marvea",
-        image: "marvea_1",
+        name: "Anthea V",
+        image: "anthea_1",
     },
     {
-        name: "Serena M",
-        image: "serena_m_1",
+        name: "Christina V",
+        image: "christina_1",
     },
     {
-        name: "Eraclea",
-        image: "eraclea_5",
+        name: "Marylisa V",
+        image: "marylisa_1",
     },
     {
-        name: "Ertea",
-        image: "ertea_1",
+        name: "Thrasyvoulos V",
+        image: "deck",
     },
 ];
 
@@ -31,10 +31,10 @@ export default function Home(): JSX.Element {
     const [serviceImg, setServiceImg] = useState<string>();
     const [moreImg, setMoreImg] = useState<string>();
 
-    import("../assets/images/marvea_1.jpg").then((img) => {
+    import("../assets/images/deck.jpg").then((img) => {
         setServiceImg(img.default);
     });
-    import("../assets/images/hull_banner.jpeg").then((img) => {
+    import("../assets/images/aeolos_4.jpg").then((img) => {
         setMoreImg(img.default);
     });
     return (
@@ -48,8 +48,8 @@ export default function Home(): JSX.Element {
                     About
                 </h1>
                 <p className="mx-auto text-sm text-center">
-                    Medcare Shipping S.A. is a Shipping Company operating Tanker
-                    & Bulk Carrier Ships.
+                    Alexandria Shipping S.A. is a Shipping Company operating
+                    Tanker & Bulk Carrier Ships.
                     <br /> The company supports the need for a comprehensive and
                     effective Quality & Environmental management system to
                     ensure that the services offered by this organization meet
@@ -63,7 +63,7 @@ export default function Home(): JSX.Element {
                     Services
                 </h1>
                 <p className="pb-4 mx-auto text-sm text-center">
-                    Medcare’s management services include operating,
+                    Alexandria Shipping management services include operating,
                     maintaining, crewing, and trading the vessels worldwide in a
                     safe, efficient, economic and profitable way. <br />
                     The Management’s headquarters are located in Glyfada,

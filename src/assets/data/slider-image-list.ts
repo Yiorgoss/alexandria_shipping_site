@@ -1,9 +1,6 @@
 const sliderImageList = [
-    { name: "carousel_5", style: { marginTop: "0" } },
-    { name: "carousel_2" },
-    { name: "carousel_3" },
-    { name: "carousel_4" },
-    { name: "carousel_1" },
-    { name: "carousel_6" },
+    { name: "deck", style: { objectPosition: "0 -400px" } },
+    { name: "aeolos_3", style: { objectPosition: "0 -400px" } },
+    { name: "christina_2", style: { objectPosition: "0 -400px" } },
 ];
 export default sliderImageList;
