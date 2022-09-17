@@ -155,14 +155,17 @@ const shipList = [
             {
                 name: "marylisa_6",
                 //inline styles for selected image
+                style: {},
             },
             {
                 name: "marylisa_7",
                 //inline styles for selected image
+                style: {},
             },
             {
                 name: "marylisa_8",
                 //inline styles for selected image
+                style: {},
             },
         ],
     },
