@@ -24,10 +24,6 @@ const links = [
         path: "/company/health-safety",
     },
     {
-        title: "Whistleblower Policy",
-        path: "/company/whistleblower",
-    },
-    {
         title: "Business Ethics Policy / Disciplinary Policy",
         path: "/company/policies",
     },
