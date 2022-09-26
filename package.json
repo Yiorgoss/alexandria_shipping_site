@@ -1,6 +1,6 @@
 {
-    "name": "medcare.gr",
-    "homepage": "http://medcare.gr",
+    "name": "alexship.gr",
+    "homepage": "http://alexship.gr",
     "version": "0.0.0",
     "scripts": {
         "dev": "vite",

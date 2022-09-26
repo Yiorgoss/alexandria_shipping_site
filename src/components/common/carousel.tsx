@@ -17,7 +17,6 @@ const CarouselImage = ({
         setImageUrl(img.default);
     });
 
-    console.log(style);
     return (
         <img
             src={imageUrl}

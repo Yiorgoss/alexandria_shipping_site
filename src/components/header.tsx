@@ -3,8 +3,7 @@ import { NavLink } from "react-router-dom";
 
 import MenuIcon from "@material-ui/icons/Menu";
 
-//import logoLarge from "../assets/images/logo-large.jpg";
-//import medcareLogoLarge from "../assets/images/medcare_logo_large.jpg";
+import logo from "../assets/images/logo_blue.svg";
 
 const headerLinks = [
     {
@@ -54,8 +53,8 @@ export default function Header(): JSX.Element {
         };
     }, [open]);
 
-    //const [image, setImage] = useState();
-    //import("../assets/images/logo-small.svg").then((img) =>
+    const [image, setImage] = useState();
+    //import("../assets/images/logo-blue.svg").then((img) =>
     //    setImage(img.default)
     //);
     //const style = {
@@ -70,7 +69,11 @@ export default function Header(): JSX.Element {
                 }`}
             >
                 <div className="w-full h-full grid grid-cols-3 md:grid-cols-4">
-                    <div className="h-[100px] w-[300px] md:w-[330px] overflow-hidden place-start "></div>
+                    <div className=" h-[60px] w-[60px] hidden md:block mt-[20px] ml-12 overflow-hidden place-start ">
+                        <NavLink exact to={"/"}>
+                            <img src={logo} alt="alexandria shipping logo" />
+                        </NavLink>
+                    </div>
                     <div className="my-auto col-span-2">
                         <ul className="flex flex-col justify-start justify-center my-auto text-xl text-center flex-start md:text-sm md:flex-row">
                             {headerLinks.map((link, index) => (
