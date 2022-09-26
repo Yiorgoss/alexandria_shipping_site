@@ -69,7 +69,7 @@ export default function Header(): JSX.Element {
                 }`}
             >
                 <div className="w-full h-full grid grid-cols-3 md:grid-cols-4">
-                    <div className=" h-[60px] w-[60px] hidden md:block mt-[20px] ml-12 overflow-hidden place-start ">
+                    <div className=" h-[60px] w-[60px] hidden md:block mt-[20px] ml-16 overflow-hidden place-start ">
                         <NavLink exact to={"/"}>
                             <img src={logo} alt="alexandria shipping logo" />
                         </NavLink>

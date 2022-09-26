@@ -48,8 +48,8 @@ export default function Home(): JSX.Element {
                     About
                 </h1>
                 <p className="mx-auto text-sm text-center">
-                    Alexandria Shipping S.A. is a Shipping Company operating
-                    Tanker & Bulk Carrier Ships.
+                    Alexandria Shipping Hellas S.A. is a Shipping Company
+                    operating Bulk Carriers.
                     <br /> The company supports the need for a comprehensive and
                     effective Quality & Environmental management system to
                     ensure that the services offered by this organization meet
@@ -66,8 +66,7 @@ export default function Home(): JSX.Element {
                     Alexandria Shipping management services include operating,
                     maintaining, crewing, and trading the vessels worldwide in a
                     safe, efficient, economic and profitable way. <br />
-                    The Management’s headquarters are located in Glyfada,
-                    Athens, Greece
+                    The Management’s headquarters are located in Omonia, Greece
                 </p>
             </div>
             <Divider />
@@ -89,7 +88,7 @@ export default function Home(): JSX.Element {
                 <p className="mx-auto mb-10 text-sm text-center">
                     The Company Management System (CMS) is designed to operate
                     within the requirements of ISO 9001:2008, ISO 14001:2004,
-                    the ISM code and the OCIMF TMSA.
+                    the ISM code.
                 </p>
             </div>
         </section>

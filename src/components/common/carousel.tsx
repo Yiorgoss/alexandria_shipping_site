@@ -59,7 +59,7 @@ export default function Carousel({
                         <CarouselImage
                             image={image.name}
                             key={index}
-                            className="w-screen 2xl:mt-[-200px]"
+                            className=" md:w-screen 2xl:mt-[-200px]"
                             style={image.style}
                         />
                     )}
