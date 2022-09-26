@@ -43,7 +43,7 @@ export default function Carousel({
         setCurrent(current === 0 ? length - 1 : current - 1);
     };
     return (
-        <div className="h-[300px] md:h-[400px] relative w-full transition-all duration-1000 overflow-hidden">
+        <div className="h-[300px] md:h-[400px] relative transition-all duration-1000 object-contain overflow-hidden ">
             <div className="absolute left-0 top-2/4 ">
                 <ArrowBackIos fontSize="large" onClick={prevSlide} />
             </div>
@@ -59,7 +59,7 @@ export default function Carousel({
                         <CarouselImage
                             image={image.name}
                             key={index}
-                            className=" md:w-screen 2xl:mt-[-200px]"
+                            className=" md:w-screen md:mt-[-400px] 2xl:mt-[-200px]"
                             style={image.style}
                         />
                     )}
