@@ -78,7 +78,7 @@ export default function Header(): JSX.Element {
                             />
                         </NavLink>
                     </div>
-                    <div className="hidden  my-auto text-sm md:block col-span-2">
+                    <div className="hidden my-auto text-sm md:block col-span-2">
                         Alexandria Shipping (Hellas) S.A.
                     </div>
                     <div className="my-auto col-span-4 md:col-start-4">
@@ -104,12 +104,24 @@ export default function Header(): JSX.Element {
                 </div>
             </div>
             <div className="fixed h-[100px] top-0 w-screen bg-white md:hidden md:shadow-2xl ">
-                <button
-                    className="float-right h-full mr-8"
-                    onClick={() => setOpen(!open)}
-                >
-                    <MenuIcon className="my-auto" fontSize="large" />
-                </button>
+                <div className="flex justify-between p-2">
+                    <NavLink exact to={"/"} className="">
+                        <img
+                            src={logo}
+                            className="mx-auto w-[60px] "
+                            alt="alexandria shipping logo"
+                        />
+                    </NavLink>
+                    <div className="my-auto text-navy">
+                        Alexandria Shipping (Hellas) S.A.
+                    </div>
+                    <button
+                        className="float-right h-full my-auto mr-8"
+                        onClick={() => setOpen(!open)}
+                    >
+                        <MenuIcon className="my-auto" fontSize="large" />
+                    </button>
+                </div>
             </div>
         </section>
     );

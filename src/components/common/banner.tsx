@@ -24,12 +24,12 @@ export default function Banner({
     style = { ...style, backgroundImage: `url(${imageUrl})` };
 
     return (
-        <div className="mt-5 md:mt-[100px]">
+        <div className="md:mt-[100px]">
             <div
                 style={style}
                 className="bg-no-repeat bg-cover bg-center flex w-full h-[200px]"
             >
-                <div className="w-full my-auto text-center">
+                <div className="w-full pt-10 my-auto text-center md:pt-0">
                     {title && (
                         <span className="text-4xl tracking-widest text-white font-lg text-outline">
                             {title}
