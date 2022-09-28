@@ -12,34 +12,37 @@ import LoadingPage from "./components/loading-page";
 import Footer from "./components/footer";
 
 export default function App(): JSX.Element {
-    //    const [isLoading, setLoading] = useState(true);
+    const [isLoading, setLoading] = useState(true);
 
-    //    useEffect(() => {
-    //        setTimeout(() => setLoading(false), 2500);
-    //    }, []);
-    //
+    useEffect(() => {
+        setTimeout(() => setLoading(false), 2500);
+    }, []);
+
     return (
         <>
-            <Router>
-                <Header />
-                <ScrollToTop />
-                <Switch>
-                    <Route exact path="/" render={() => <Home />} />
-                    <Route
-                        path="/services/:service"
-                        render={() => <Services />}
-                    />
-                    <Route
-                        path="/company/:statement"
-                        render={() => <Company />}
-                    />
-                    <Route path="/fleet" render={() => <Fleet />} />
-                    <Route path="/contact" render={() => <Contact />} />
-                    <Route render={() => <Home />} />
-                </Switch>
-                <Footer />
-            </Router>
-            )
+            {isLoading ? (
+                <LoadingPage />
+            ) : (
+                <Router>
+                    <Header />
+                    <ScrollToTop />
+                    <Switch>
+                        <Route exact path="/" render={() => <Home />} />
+                        <Route
+                            path="/services/:service"
+                            render={() => <Services />}
+                        />
+                        <Route
+                            path="/company/:statement"
+                            render={() => <Company />}
+                        />
+                        <Route path="/fleet" render={() => <Fleet />} />
+                        <Route path="/contact" render={() => <Contact />} />
+                        <Route render={() => <Home />} />
+                    </Switch>
+                    <Footer />
+                </Router>
+            )}
         </>
     );
 }
