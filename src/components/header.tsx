@@ -112,11 +112,11 @@ export default function Header(): JSX.Element {
                             alt="alexandria shipping logo"
                         />
                     </NavLink>
-                    <div className="my-auto text-navy">
+                    <div className="my-auto text-navy text-center">
                         Alexandria Shipping (Hellas) S.A.
                     </div>
                     <button
-                        className="float-right h-full my-auto mr-8"
+                        className="float-right h-full my-auto mr-8 text-navy"
                         onClick={() => setOpen(!open)}
                     >
                         <MenuIcon className="my-auto" fontSize="large" />
