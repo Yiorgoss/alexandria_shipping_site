@@ -1,5 +1,5 @@
 const sliderImageList = [
-    { name: "deck2", style: {} },
+    { name: "carousel_main", style: {} },
     { name: "deck", style: {} },
     { name: "christina_2", style: {} },
 ];
