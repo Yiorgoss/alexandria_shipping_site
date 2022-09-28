@@ -21,7 +21,7 @@ const serviceList = {
         text: "&emsp;&emsp;Based on a highly experienced and qualified staff of naval architects and marine engineers, the technical department establishes that each vessel’s hull, machinery and equipment is more than adequately monitored and maintained at the highest possible standards. All known and new techniques are applied to always provide safety as well as to support, at a top level, the functionality and operation of the fleet.<br><br>The technical department is responsible:<br><br><ul><li>To plan and supervise all organization and technical activities regarding technical projects and the maintenance of Company’s fleet.</li><li>To ensure all the vessels classification society requirements are followed, especially with respect to maintaining the class status of vessels.</li><li>To initiate, control and perform actions necessary to ensure the quality, integrity and profitability as well as the contractual delivery time of the repairs and projects carried out by the Department.</li><li>To evaluate & control vessel’s expenditures for maintenance & repair purposes.</li><li>To minimize any vessel delays due to any unscheduled machinery/ equipment break down.</li></ul>",
         banner: {
             image: "",
-            style: { backgroundPosition: "70% 78%" },
+            style: {},
         },
     },
     "marine-safety-quality": {

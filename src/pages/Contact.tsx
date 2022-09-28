@@ -20,7 +20,11 @@ import { Banner, Divider } from "../components/common";
 export default function Contact(): JSX.Element {
     return (
         <div className=" w-full mt-[100px]">
-            <Banner style={{ height: "350px" }} title="Contact Us" />
+            <Banner
+                image="contact_us"
+                style={{ height: "350px" }}
+                title="Contact Us"
+            />
             <div className="container mx-auto mt-20 ">
                 <Divider />
                 <div className="flex pt-10 pb-6 shadow-lg justify-evenly bg-gray-500/10">

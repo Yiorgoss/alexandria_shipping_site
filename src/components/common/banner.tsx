@@ -14,7 +14,7 @@ export default function Banner({
     const [imageUrl, setImageUrl] = useState<string>();
 
     if (image === "" || image === undefined) {
-        image = "deck";
+        image = "deck2";
     }
 
     import(`../../assets/images/${image}.jpg`).then((img) => {
