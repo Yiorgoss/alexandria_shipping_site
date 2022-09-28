@@ -48,7 +48,7 @@ export default function Home(): JSX.Element {
                     About
                 </h1>
                 <p className="mx-auto text-sm text-center">
-                    Alexandria Shipping Hellas S.A. is a Shipping Company
+                    Alexandria Shipping (Hellas) S.A. is a Shipping Company
                     operating Bulk Carriers.
                     <br /> The company supports the need for a comprehensive and
                     effective Quality & Environmental management system to
@@ -63,9 +63,10 @@ export default function Home(): JSX.Element {
                     Services
                 </h1>
                 <p className="pb-4 mx-auto text-sm text-center">
-                    Alexandria Shipping management services include operating,
-                    maintaining, crewing, and trading the vessels worldwide in a
-                    safe, efficient, economic and profitable way. <br />
+                    Alexandria Shipping (Hellas) S.A. management services
+                    include operating, maintaining, crewing, and trading the
+                    vessels worldwide in a safe, efficient, economic and
+                    profitable way. <br />
                     The Management’s headquarters are located in Omonia, Greece
                 </p>
             </div>
