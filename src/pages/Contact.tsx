@@ -22,7 +22,7 @@ export default function Contact(): JSX.Element {
         <div className=" w-full mt-[100px]">
             <Banner
                 image="carousel_main"
-                style={{ height: "350px" }}
+                style={{ height: "350px", backgroundPosition: "center 55%" }}
                 title="Contact Us"
             />
             <div className="container mx-auto mt-20 ">

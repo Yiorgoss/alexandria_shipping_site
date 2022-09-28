@@ -35,7 +35,7 @@ export default function App(): JSX.Element {
                     />
                     <Route path="/fleet" render={() => <Fleet />} />
                     <Route path="/contact" render={() => <Contact />} />
-                    <Route render={() => 404} />
+                    <Route render={() => <Home />} />
                 </Switch>
                 <Footer />
             </Router>

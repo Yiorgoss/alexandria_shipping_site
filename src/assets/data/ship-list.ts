@@ -44,20 +44,6 @@ const shipList = [
         dwt: 66609,
         images: [
             {
-                name: "anthea_1",
-                //inline styles for selected image
-                style: {
-                    backgroundPosition: "center 100%",
-                },
-            },
-            {
-                name: "anthea_2",
-                //inline styles for selected image
-                style: {
-                    backgroundPosition: "center 40%",
-                },
-            },
-            {
                 name: "anthea_3",
                 //inline styles for selected image
                 style: {
@@ -66,13 +52,6 @@ const shipList = [
             },
             {
                 name: "anthea_4",
-                //inline styles for selected image
-                style: {
-                    backgroundPosition: "center 40%",
-                },
-            },
-            {
-                name: "anthea_5",
                 //inline styles for selected image
                 style: {
                     backgroundPosition: "center 40%",
@@ -125,20 +104,6 @@ const shipList = [
                 },
             },
             {
-                name: "marylisa_2",
-                //inline styles for selected image
-                style: {
-                    backgroundPosition: "center 100%",
-                },
-            },
-            {
-                name: "marylisa_3",
-                //inline styles for selected image
-                style: {
-                    backgroundPosition: "center 100%",
-                },
-            },
-            {
                 name: "marylisa_4",
                 //inline styles for selected image
                 style: {
@@ -146,24 +111,12 @@ const shipList = [
                 },
             },
             {
-                name: "marylisa_5",
-                //inline styles for selected image
-                style: {
-                    backgroundPosition: "center 100%",
-                },
-            },
-            {
-                name: "marylisa_6",
-                //inline styles for selected image
-                style: {},
-            },
-            {
                 name: "marylisa_7",
                 //inline styles for selected image
                 style: {},
             },
             {
-                name: "marylisa_8",
+                name: "marylisa_9",
                 //inline styles for selected image
                 style: {},
             },
