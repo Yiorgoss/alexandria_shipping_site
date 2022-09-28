@@ -116,7 +116,7 @@ export default function Header(): JSX.Element {
                         Alexandria Shipping (Hellas) S.A.
                     </div>
                     <button
-                        className="float-right h-full my-auto mr-8 text-navy"
+                        className="float-right h-full my-auto mr-8"
                         onClick={() => setOpen(!open)}
                     >
                         <MenuIcon className="my-auto" fontSize="large" />
