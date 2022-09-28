@@ -68,14 +68,21 @@ export default function Header(): JSX.Element {
                     open ? "left-0" : "left-[-600px]"
                 }`}
             >
-                <div className="w-full h-full grid grid-cols-3 md:grid-cols-4">
-                    <div className=" h-[60px] w-[60px] hidden md:block mt-[20px] ml-16 overflow-hidden place-start ">
-                        <NavLink exact to={"/"}>
-                            <img src={logo} alt="alexandria shipping logo" />
+                <div className="w-full h-full grid grid-cols-3 md:grid-cols-10">
+                    <div className="hidden md:inline-block mt-[20px] ml-6 overflow-hidden ">
+                        <NavLink exact to={"/"} className="">
+                            <img
+                                src={logo}
+                                className="mx-auto w-[60px] "
+                                alt="alexandria shipping logo"
+                            />
                         </NavLink>
                     </div>
-                    <div className="my-auto col-span-2">
-                        <ul className="flex flex-col justify-start justify-center my-auto text-xl text-center flex-start md:text-sm md:flex-row">
+                    <div className="hidden  my-auto text-sm md:block col-span-2">
+                        Alexandria Shipping (Hellas) S.A.
+                    </div>
+                    <div className="my-auto col-span-4 md:col-start-4">
+                        <ul className="flex flex-col justify-start justify-center my-auto text-xl text-center md:justify-left flex-start md:text-sm md:flex-row">
                             {headerLinks.map((link, index) => (
                                 <li
                                     className="mx-3 mb-16 md:my-auto"

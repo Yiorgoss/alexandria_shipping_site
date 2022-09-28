@@ -55,7 +55,7 @@ const TableRow = ({ ship, index }: { ship: shipType; index: number }) => {
             ) : (
                 <div className="py-4 pt-5 ml-5 my-auto text-left md:py-6 md:text-center before:content-['Name'] before:pr-4 before:font-bold md:before:hidden">
                     <span
-                        className=" cursor-pointer "
+                        className="cursor-pointer "
                         onClick={() => setHidden(!isHidden)}
                     >
                         {ship.name}
@@ -111,7 +111,7 @@ const TableRow = ({ ship, index }: { ship: shipType; index: number }) => {
                 <div className="w-full p-6 grid grid-cols-2 gap-4">
                     {ship.images.map((image, index) => (
                         <div
-                            className="mx-auto h-[200px] md:h-[250px] md:max-w-full w-3/5 h-3/5 py-5"
+                            className="mx-auto h-[200px] md:h-[250px] md:max-w-full w-5/6 md:w-3/5  py-5"
                             key={index}
                         >
                             <ImageOverlay
@@ -149,7 +149,7 @@ const IFrameLoading = () => {
 export default function ShipTable({ shipList }: shipTableProps): JSX.Element {
     return (
         <div className="container mx-auto overflow-scroll no-scrollbar">
-            <div className="w-full mt-10">
+            <div className="w-full my-10">
                 <TableHeader />
                 <TableData shipList={shipList} />
             </div>

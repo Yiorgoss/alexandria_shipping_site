@@ -44,12 +44,6 @@ export default function Carousel({
     };
     return (
         <div className="h-[300px] md:h-[400px] relative transition-all duration-1000 object-contain overflow-hidden ">
-            <div className="absolute left-0 top-2/4 ">
-                <ArrowBackIos fontSize="large" onClick={prevSlide} />
-            </div>
-            <div className="absolute right-0 top-2/4 ">
-                <ArrowForwardIos fontSize="large" onClick={nextSlide} />
-            </div>
             {images.map((image, index) => (
                 <div
                     className={index === current ? "left-0" : "left-[-400px]"}

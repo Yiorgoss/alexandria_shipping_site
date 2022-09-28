@@ -177,7 +177,13 @@ const shipList = [
         dwt: 61214,
         images: [
             {
-                name: "deck",
+                name: "thrasyvoulos_1",
+                style: {
+                    backgroundPosition: "center 100%",
+                },
+            },
+            {
+                name: "thrasyvoulos_2",
                 style: {
                     backgroundPosition: "center 100%",
                 },

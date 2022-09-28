@@ -9,7 +9,6 @@ export default function Fleet(): JSX.Element {
         <section className="mt-[100px]">
             <Banner title="Fleet" />
             <ShipTable shipList={shipList} />
-            <Banner title="" />
         </section>
     );
 }

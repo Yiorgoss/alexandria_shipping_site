@@ -23,7 +23,7 @@ const shipBoxData = [
     },
     {
         name: "Thrasyvoulos V",
-        image: "deck",
+        image: "thrasyvoulos_1",
     },
 ];
 
@@ -67,7 +67,8 @@ export default function Home(): JSX.Element {
                     include operating, maintaining, crewing, and trading the
                     vessels worldwide in a safe, efficient, economic and
                     profitable way. <br />
-                    The Management’s headquarters are located in Omonia, Greece
+                    The Management’s headquarters are located in Omonia, Athens,
+                    Greece
                 </p>
             </div>
             <Divider />
