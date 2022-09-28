@@ -24,7 +24,6 @@ const footerStatementLinks = [
     { title: "Mission Statement", path: "/company/mission-statement" },
     { title: "Quality", path: "/company/quality" },
     { title: "Health, Safety and Environment", path: "/company/health-safety" },
-    { title: "Whistleblower", path: "/company/whistleblower" },
     {
         title: "Business Ethics Policy and Disciplinary Policy",
         path: "/company/policies",
