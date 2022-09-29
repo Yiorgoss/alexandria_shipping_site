@@ -8,6 +8,10 @@ import { serviceListType } from "../types";
 
 const links = [
     {
+        title: "Insurance & Claims",
+        path: "/services/insurance",
+    },
+    {
         title: "Commercial",
         path: "/services/commercial",
     },

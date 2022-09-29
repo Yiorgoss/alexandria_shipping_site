@@ -10,6 +10,7 @@ const footerSitemapLinks = [
     { title: "Contact", path: "/contact" },
 ];
 const footerServicesLinks = [
+    { title: "Insurance & Claims", path: "/services/insurance" },
     { title: "Commercial", path: "/services/commercial" },
     { title: "Operation", path: "/services/operation" },
     { title: "Technical", path: "/services/technical" },
