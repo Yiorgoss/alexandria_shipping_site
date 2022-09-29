@@ -31,7 +31,7 @@ export default function Home(): JSX.Element {
     const [serviceImg, setServiceImg] = useState<string>();
     const [moreImg, setMoreImg] = useState<string>();
 
-    import("../assets/images/deck.jpg").then((img) => {
+    import("../assets/images/anthea_3.jpg").then((img) => {
         setServiceImg(img.default);
     });
     import("../assets/images/aeolos_4.jpg").then((img) => {
@@ -55,7 +55,12 @@ export default function Home(): JSX.Element {
                     ensure that the services offered by this organization meet
                     customer requirements
                 </p>
+                <Divider />
             </div>
+            <div
+                className="w-full h-[400px] my-10 bg-center max-h-full bg-no-repeat bg-auto md:bg-cover "
+                style={{ backgroundImage: `url(${serviceImg})` }}
+            ></div>
             <div className="container mx-auto mt-2">
                 <Divider />
                 <h1 className="py-5 text-2xl font-medium tracking-widest text-center">
@@ -70,8 +75,8 @@ export default function Home(): JSX.Element {
                     The Management’s headquarters are located in Omonia, Athens,
                     Greece
                 </p>
+                <Divider />
             </div>
-            <Divider />
             <div className="container mx-auto mt-2"></div>
             <div
                 className="w-full h-[400px] my-10 bg-center max-h-full bg-no-repeat bg-auto md:bg-cover "

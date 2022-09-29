@@ -43,7 +43,7 @@ export default function Carousel({
         setCurrent(current === 0 ? length - 1 : current - 1);
     };
     return (
-        <div className="h-[300px] md:h-[400px] relative transition-all duration-1000 object-contain overflow-hidden ">
+        <div className="h-[300px] md:h-screen relative transition-all duration-1000 object-contain overflow-hidden ">
             {images.map((image, index) => (
                 <div
                     className={index === current ? "left-0" : "left-[-400px]"}
@@ -53,7 +53,7 @@ export default function Carousel({
                         <CarouselImage
                             image={image.name}
                             key={index}
-                            className=" md:w-screen md:mt-[-400px] 2xl:mt-[-200px]"
+                            className=" md:w-screen md:mt-[-220px] 2xl:mt-[-500px] object-contain"
                             style={image.style}
                         />
                     )}
