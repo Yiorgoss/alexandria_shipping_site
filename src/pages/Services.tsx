@@ -24,8 +24,8 @@ const links = [
         path: "/services/technical",
     },
     {
-        title: "Marine-Safety-Quality & Environment",
-        path: "/services/marine-safety-quality",
+        title: "DPA",
+        path: "/services/DPA",
     },
     {
         title: "Crewing",

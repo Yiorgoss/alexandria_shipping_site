@@ -14,10 +14,7 @@ const footerServicesLinks = [
     { title: "Commercial", path: "/services/commercial" },
     { title: "Operation", path: "/services/operation" },
     { title: "Technical", path: "/services/technical" },
-    {
-        title: "Marine Safety Quality & Environment",
-        path: "/services/marine-safety-quality",
-    },
+    { title: "DPA", path: "/services/DPA" },
     { title: "Crewing", path: "/services/crewing" },
 ];
 const footerStatementLinks = [
