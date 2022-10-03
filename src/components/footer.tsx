@@ -18,7 +18,7 @@ const footerServicesLinks = [
     { title: "Crewing", path: "/services/crewing" },
 ];
 const footerStatementLinks = [
-    { title: "History", path: "/company/history" },
+    { title: "Company History", path: "/company/history" },
     { title: "Mission Statement", path: "/company/mission-statement" },
     { title: "Quality", path: "/company/quality" },
     { title: "Health, Safety and Environment", path: "/company/health-safety" },
