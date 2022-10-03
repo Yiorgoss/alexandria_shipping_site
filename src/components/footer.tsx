@@ -6,7 +6,7 @@ const footerSitemapLinks = [
     { title: "Home", path: "/" },
     { title: "Company", path: "/company/history" },
     { title: "Fleet", path: "/fleet" },
-    { title: "Services", path: "/services/commercial" },
+    { title: "Services", path: "/services/insurance" },
     { title: "Contact", path: "/contact" },
 ];
 const footerServicesLinks = [
@@ -54,7 +54,7 @@ export default function Footer(): JSX.Element {
                             <NavLink
                                 exact
                                 activeClassName="font-medium"
-                                className="pt-6 border-b border-black"
+                                className="mt-6 border-b border-black"
                                 to={link.path}
                             >
                                 {link.title}
@@ -63,13 +63,15 @@ export default function Footer(): JSX.Element {
                     ))}
                 </ul>
                 <ul className="pt-8 md:pt-0">
-                    <h1 className="text-lg font-semibold">Statements </h1>
+                    <h1 className="text-lg font-semibold">
+                        Company Statements{" "}
+                    </h1>
                     {footerStatementLinks.map((link, index) => (
                         <li className="pt-2 pl-2 text-sm" key={index}>
                             <NavLink
                                 exact
                                 activeClassName="font-medium"
-                                className="pt-6 border-b border-black"
+                                className="mt-6 border-b border-black"
                                 to={link.path}
                             >
                                 {link.title}

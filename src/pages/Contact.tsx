@@ -47,7 +47,6 @@ export default function Contact(): JSX.Element {
                             Phone: +30 210 523 8000,
                             <br /> Fax: +30 210 523 6900
                             <br /> Email: info@alexship.gr
-                            <br /> TELEX: 211021 ALEX GR
                         </div>
                     </div>
                 </div>
