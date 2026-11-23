@@ -1,42 +1,5 @@
 const shipList = [
   {
-    name: "Aeolos",
-    type: "Handysize",
-    year: 2001,
-    flag: "Marshall Islands",
-    dwt: 32256,
-    images: [
-      {
-        name: "aeolos_4",
-        //inline styles for selected image
-        style: {
-          backgroundPosition: "center 70%",
-        },
-      },
-      {
-        name: "aeolos_5",
-        //inline styles for selected image
-        style: {
-          backgroundPosition: "center 70%",
-        },
-      },
-      {
-        name: "aeolos_2",
-        //inline styles for selected image
-        style: {
-          backgroundPosition: "center 90%",
-        },
-      },
-      {
-        name: "aeolos_3",
-        //inline styles for selected image
-        style: {
-          backgroundPosition: "center 90%",
-        },
-      },
-    ],
-  },
-  {
     name: "Anthea V",
     type: "Ultramax",
     year: 2016,
