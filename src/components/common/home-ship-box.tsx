@@ -52,7 +52,7 @@ export default function HomeShipBox({
                 {" "}
                 Fleet{" "}
             </h1>
-            <div className="grid gap-8 grid-cols-2 sm:grid-cols-3 md:grid-cols-5 w-full h-[350px] sm:h-[250px] md:h-[150px] px-10 mb-16">
+            <div className="grid gap-8 grid-cols-2 sm:grid-cols-3 md:grid-cols-3 w-full h-[150px] sm:h-[250px] md:h-[300px] px-10 mb-16">
                 {data.map((ship, index) => (
                     <BoxImg ship={ship} key={index} />
                 ))}

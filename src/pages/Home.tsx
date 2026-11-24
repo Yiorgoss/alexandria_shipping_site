@@ -6,10 +6,6 @@ import { sliderImageList } from "../assets/data";
 
 const shipBoxData = [
   {
-    name: "Aeolos",
-    image: "aeolos_2",
-  },
-  {
     name: "Anthea V",
     image: "anthea_1",
   },
@@ -30,7 +26,7 @@ export default function Home(): JSX.Element {
   import("../assets/images/anthea_3.jpg").then((img) => {
     setServiceImg(img.default);
   });
-  import("../assets/images/aeolos_4.jpg").then((img) => {
+  import("../assets/images/thrasyvoulos_1.jpg").then((img) => {
     setMoreImg(img.default);
   });
   return (
